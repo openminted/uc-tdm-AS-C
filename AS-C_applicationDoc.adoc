@@ -1,0 +1,22 @@
+= Microbial Biodiversity
+
+An initial page to introduce the application and it’s functionality
+
+== Application goal
+
+== Application description
+
+= Microbial Biodiversity Search
+
+A separate page for each ‘data processing scenario’ from the Application Design report for that application, outlining the execution of the scenario from the user’s perspective.
+
+== User profile
+The user of the microbial biodiversity search engine is a microbiologist that want to collect information about the type of environment where a bacteria or a class of bacteria live according to the literature. Conversely the microbiologist may want to collect the types of bacteria that live in a given environement.
+
+== Architecture of the application
+The relevant corpus has been fully pre-processed by AlvisNLP pipeline and indexed for query through AlvisIR engine available from any web browser.
+
+== User manual, How-to
+=== Launching the application
+The URL to run AlvisIR search engine on Microbial Biodiversity is : 
+http://bibliome.jouy.inra.fr/demo/ontobiotope/alvisir2/webapi/search?
