@@ -105,7 +105,6 @@ image::resources/images/alvisIR_home_Ontology.png[align="center"]
 === Ontology navigation
 The levels of the ontology are displayed from the most general to the specific, from left to right. The triangle at the right of a concept name represent the size of the subtree it the root of. The surface of the triangle is proportional to the depth and the banching factor. Click on the triangle opens the subtree.
 
-
 [[img-sunset]]
 // .Ontology Nativation Traingle //
 image::resources/images/alvisIR_home_Ontology_Navigation_Triangle.png[]
