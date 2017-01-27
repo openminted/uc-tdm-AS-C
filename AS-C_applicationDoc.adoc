@@ -34,13 +34,57 @@ http://bibliome.jouy.inra.fr/demo/ontobiotope/alvisir2/webapi/search?
 .AlvisIR search engine
 image::resources/images/alvisIR_home.png[]
 
+A click on the i at the left of the query field display the query language. 
 
 
+[[img-sunset]]
+.A click
+image::resources/images/alvisIR_home_Aclick.png[]
 
-resources/images/alvisIR_home_Aclick.png
-resources/images/alvisIR_home_TheQuery.png
-resources/images/alvisIR_home_Results.png
-resources/images/alvisIR_home_Habitat.png
+=== Query
+The query is typed in the query field.
+
+[[img-sunset]]
+.The Query
+image::resources/images/alvisIR_home_TheQuery.png[]
+
+=== Results
+The results of the query are displayed in four frames:
+the query interpretation (blue frame)
+the list of hits (pink frame)
+the facets (yellow frame)
+the page number (green frame).
+
+[[img-sunset]]
+.The Results
+image::resources/images/alvisIR_home_Results.png[]
+
+=== Query interpretation 
+
+The query is interpreted according to the syntax of the query language. The terms of the query that designate bacteria taxa with respect to the NCBI taxonomy or habitats with respect to the OntoBiotope ontology are interpreted as concepts of these hierarchies. ~loc is interpreted as the "localization relation between the taxon term at left and the habitat term at right. 
+The query interpretation frame displays the interpretation of query terms as concepts, the list of their synonyms and subconcepts (more specific). The number of occurrences for each term is also displayed. All documents that are indexed by a synonym or a more specific term of the query term are retrieved if they respect the relationship constraint if ever. 
+
+=== Hits
+
+Each hit represent a document that verify the query constraints. It is composed of 
+the title of the document, (click on the title display the full reference on PubMed site.)
+the publication date, 
+the name of the journal, 
+the text of the abstract and 
+the list of the indexes that is displayed by a click on the >> symbol.
+The taxa and the habitat names are highlighted. The colour for each entity type corresponds to the colour of the query interpretation frame. A fine green line links the taxon to its habitats.
+
+=== Facets
+
+There is one facet table per index type: Microorganisms, Habitats and Journals. They give information about the set of retrieved hits. Each table gives the list of values, the total frequency and the number of documents. 10 (by default), 20 or all of them can be displayed. Click on any line refines the query: it adds to the query the term in the facet that has been selected.
+
+=== Page number
+
+The number of hits displayed per page can be 10, 20, 30 or 50. 
+
+[[img-sunset]]
+.Habitat
+image::resources/images/alvisIR_home_Habitat.png
 resources/images/alvisIR_home_Ontology.png
 resources/images/alvisIR_home_Ontology_Navigation.png
 resources/images/alvisIR_home_QueryComposer.png
