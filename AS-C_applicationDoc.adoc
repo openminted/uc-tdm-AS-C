@@ -4,19 +4,44 @@ An initial page to introduce the application and it’s functionality
 
 == Application goal
 
+One of the main goal of the microbial biodiversity TDM use case is the completion of the knowledge described in databases with knowledge from the literature and other databases on microbial biodiversity, as well as their comparison for further analysis. A key knowledge in microbiology is the microbial biotope, its properties and the phenotypes of the microorganism. Most of this information is expressed in free text. Information content analysis and standardization calls for information extraction tools that can automatically analyze descriptions of microorganism biotopes so that biotope descriptions originating from different experiments can be compared at a large scale. Here analysis means not only the extraction of the relevant spans of text, but also the normalization or categorization with reference resources (e.g. taxonomy of organisms, ontology of habitat, ontology of phenotypes, ontology of physico-chemical properties, etc.).
+
 == Application description
+
+This version of the application consists of the automatic recognition and normalization of 1,6 million microorganism taxa and their 3,6 millions habitats and the automatic identification of 3,63 millions relationships between them. 
+The corpus is composed of 1,16 million PubMed references. The taxa are normalized according to NCBI taxonomy. The habitats are normalized according to OntoBiotope Ontology.
+The TDM components and the workflow application are deployed on Alvis platform at INRA MaIAGE lab. The end-user can use two front-end tools to search the extracted information a semantic search engine or a treemap builder. 
+Alvis Semantic Information Retrieval engine is web application, publicly available usable with any web browser. 
 
 = Microbial Biodiversity Search
 
 A separate page for each ‘data processing scenario’ from the Application Design report for that application, outlining the execution of the scenario from the user’s perspective.
 
 == User profile
+
 The user of the microbial biodiversity search engine is a microbiologist that want to collect information about the type of environment where a bacteria or a class of bacteria live according to the literature. Conversely the microbiologist may want to collect the types of bacteria that live in a given environement.
 
 == Architecture of the application
+
 The relevant corpus has been fully pre-processed by AlvisNLP pipeline and indexed for query through AlvisIR engine available from any web browser.
 
 == User manual, How-to
 === Launching the application
 The URL to run AlvisIR search engine on Microbial Biodiversity is : 
 http://bibliome.jouy.inra.fr/demo/ontobiotope/alvisir2/webapi/search?
+
+[[img-sunset]]
+.AlvisIR search engine
+image::resources/images/alvisIR_home.png[]
+
+
+
+
+resources/images/alvisIR_home_Aclick.png
+resources/images/alvisIR_home_TheQuery.png
+resources/images/alvisIR_home_Results.png
+resources/images/alvisIR_home_Habitat.png
+resources/images/alvisIR_home_Ontology.png
+resources/images/alvisIR_home_Ontology_Navigation.png
+resources/images/alvisIR_home_QueryComposer.png
+resources/images/alvisIR_home_QueryComposer_Result.png
