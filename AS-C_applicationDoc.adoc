@@ -82,10 +82,55 @@ There is one facet table per index type: Microorganisms, Habitats and Journals. 
 
 The number of hits displayed per page can be 10, 20, 30 or 50. 
 
+
+=== Habitat selection in the ontology
+
+Click on the tree icon at the right of the Search button displays the OntoBiotope ontology that indexes the habitat and a query composer.
+
 [[img-sunset]]
 .Habitat
-image::resources/images/alvisIR_home_Habitat.png
-resources/images/alvisIR_home_Ontology.png
-resources/images/alvisIR_home_Ontology_Navigation.png
-resources/images/alvisIR_home_QueryComposer.png
-resources/images/alvisIR_home_QueryComposer_Result.png
+image::resources/images/alvisIR_home_Habitat.png[align="center"]
+
+The ontology window is composed of two parts:
+ontology navigation (pink frame)
+the query composer (yellow frame)
+Click on the main window in the back  closes the ontology window without query composition, 
+
+[[img-sunset]]
+.Ontology
+image::resources/images/alvisIR_home_Ontology.png[align="center"]
+
+=== Ontology navigation
+The levels of the ontology are displayed from the most general to the specific, from left to right. The triangle at the right of a concept name represent the size of the subtree it the root of. The surface of the triangle is proportional to the depth and the banching factor. Click on the triangle opens the subtree.
+
+
+[[img-sunset]]
+.Ontology Nativation Traingle
+image::resources/images/alvisIR_home_Ontology_Navigation_Triangle.png[align="center"]
+
+[[img-sunset]]
+.Ontology Nativation
+image::resources/images/alvisIR_home_Ontology_Navigation.png[align="center"]
+
+Zoom is done by using the sliding button on the top of the frame 
+
+[[img-sunset]]
+.Ontology Zoom
+image::resources/images/alvisIR_home_Ontology_Zoom.png[align="center"]
+
+=== Query composer 
+Click on the name of the concept adds it to the query that is displayed as a term stack. The two operators Or or And are available.
+
+[[img-sunset]]
+.Query Composer
+image::resources/images/alvisIR_home_QueryComposer.png[align="center"]
+
+Click on Refine button adds the terms to the currect query. Click on the Search button replace the current query by the new one.
+
+[[img-sunset]]
+.Query Composer Results
+image::resources/images/alvisIR_home_QueryComposer_Result.png[align="center"]
+
+=== Further information
+Liens vers autres docs et info
+Alvis
