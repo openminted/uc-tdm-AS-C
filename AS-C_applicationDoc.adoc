@@ -13,6 +13,10 @@ The corpus is composed of 1,16 million PubMed references. The taxa are normalize
 The TDM components and the workflow application are deployed on Alvis platform at INRA MaIAGE lab. The end-user can use two front-end tools to search the extracted information a semantic search engine or a treemap builder. 
 Alvis Semantic Information Retrieval engine is web application, publicly available usable with any web browser. 
 
+=== Reference
+[bibliography]
+- [ratl] Ratkovic Z., Golik W., Warnier P.,  "Event extraction of bacteria biotopes: a knowledge-intensive NLP-based approach". BMC Bioinformatics 2012, 13(Suppl 11):S8, 26 June 2012.
+
 = Microbial Biodiversity Search
 
 A separate page for each ‘data processing scenario’ from the Application Design report for that application, outlining the execution of the scenario from the user’s perspective.
