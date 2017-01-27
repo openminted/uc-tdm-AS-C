@@ -108,11 +108,9 @@ The levels of the ontology are displayed from the most general to the specific, 
 
 [[img-sunset]]
 // .Ontology Nativation Traingle //
-image::resources/alvisIR_home_Ontology_Navigation_Triangle.png[align="center"]
-
-[[img-sunset]]
+image::resources/images/alvisIR_home_Ontology_Navigation_Triangle.png[]
 // .Ontology Nativation //
-image::resources/images/alvisIR_home_Ontology_Navigation.png[align="center"]
+image::resources/images/alvisIR_home_Ontology_Navigation.png[]
 
 Zoom is done by using the sliding button on the top of the frame 
 
@@ -121,6 +119,7 @@ Zoom is done by using the sliding button on the top of the frame
 image::resources/images/alvisIR_home_Ontology_Zoom.png[align="center"]
 
 === Query composer 
+
 Click on the name of the concept adds it to the query that is displayed as a term stack. The two operators Or or And are available.
 
 [[img-sunset]]
