@@ -5,7 +5,7 @@
         <groupId>eu.openminted.uc-tdm-AS-C</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <modelVersion>0.0.1</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
     <artifactId>documentation</artifactId>
 
     <properties>
