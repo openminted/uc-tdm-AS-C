@@ -1,0 +1,30 @@
+= Production processing
+
+== Automatic annotation of a corpus
+
+The AS-C text-mining pipeline automatically extracts the following entities:
+
+* Microbial taxa (normalized according to the NCBI taxonomy)
+
+* Microbial habitats (normalized according to the OntoBiotope ontology)
+
+* Relationships between taxa and their habitats ("lives_in" relation)
+
+== Integration into a parent application
+
+As the results of the text-mining pipeline could not be integrated into the parent application targeted by this use case at the time of the first release, we integrated them into a semantic search engine instead. This semantic search engine is close to what will be available in the final application since it provides an easier access to information about microbial biodiversity from the scientific literature. It is a web application, available at : http://bibliome.jouy.inra.fr/demo/pubmed-ontobiotope/alvisir/webapi/search?. Detailed documentation on how to use the search engine can be found <<web_app_doc.adoc#, here>>.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
