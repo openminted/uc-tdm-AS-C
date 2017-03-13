@@ -4,7 +4,7 @@
 	<artifactId>AS-C</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Life Sciences Application Software</name>
+	<name>Application Software for Microbial biodiversity</name>
 	<description>This package contains code for text mining in...</description>
 	<url>https://github.com/openminted/uc-tdm-AS-C</url>
 	<organization>
