@@ -140,7 +140,9 @@ Click on Refine button adds the terms to the currect query. Click on the Search 
 [[img-sunset]]
 
 // .Query Composer Results //
+
 image::images/alvisIR_home_QueryComposer_Result.png[align="center"]
 
 === Further information
+
 Alvis : https://github.com/Bibliome/alvisnlp
