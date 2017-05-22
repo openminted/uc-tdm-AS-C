@@ -13,9 +13,6 @@ The corpus is composed of 1,16 million PubMed references. The taxa are normalize
 The TDM components and the workflow application are deployed on Alvis platform at INRA MaIAGE lab. The end-user can use two front-end tools to search the extracted information a semantic search engine or a treemap builder. 
 Alvis Semantic Information Retrieval engine is web application, publicly available usable with any web browser. 
 
-=== Reference
-[bibliography]
-- [ratl] Ratkovic Z., Golik W., Warnier P.,  "Event extraction of bacteria biotopes: a knowledge-intensive NLP-based approach". BMC Bioinformatics 2012, 13(Suppl 11):S8, 26 June 2012.
 
 = Microbial Biodiversity Search
 
@@ -30,7 +27,9 @@ The user of the microbial biodiversity search engine is a microbiologist that wa
 The relevant corpus has been fully pre-processed by AlvisNLP pipeline and indexed for query through AlvisIR engine available from any web browser.
 
 == User manual, How-to
+
 === Launching the application
+
 The URL to run AlvisIR search engine on Microbial Biodiversity is : 
 http://bibliome.jouy.inra.fr/demo/pubmed-ontobiotope/alvisir/webapi/search?
 
@@ -38,7 +37,7 @@ http://bibliome.jouy.inra.fr/demo/pubmed-ontobiotope/alvisir/webapi/search?
 // .AlvisIR search engine//
 image::images/alvisIR_home.png[]
 
-A click on the i at the left of the query field display the query language. 
+A click on the i at the left of the query field display a cheat sheet on the query language. 
 
 
 [[img-sunset]]
@@ -46,6 +45,7 @@ A click on the i at the left of the query field display the query language.
 image::resources/images/alvisIR_home_Aclick.png[]
 
 === Query
+
 The query is typed in the query field.
 
 [[img-sunset]]
@@ -111,6 +111,7 @@ Click on the main window in the back  closes the ontology window without query c
 image::images/alvisIR_home_Ontology.png[align="center"]
 
 === Ontology navigation
+
 The levels of the ontology are displayed from the most general to the specific, from left to right. The triangle at the right of a concept name represent the size of the subtree it the root of. The surface of the triangle is proportional to the depth and the banching factor. Click on the triangle opens the subtree.
 
 [[img-sunset]]
@@ -140,5 +141,4 @@ Click on Refine button adds the terms to the currect query. Click on the Search 
 image::images/alvisIR_home_QueryComposer_Result.png[align="center"]
 
 === Further information
-Liens vers autres docs et info
-Alvis
+Alvis : https://github.com/Bibliome/alvisnlp
