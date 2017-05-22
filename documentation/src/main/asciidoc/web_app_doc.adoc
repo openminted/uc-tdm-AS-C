@@ -131,12 +131,14 @@ image::images/alvisIR_home_Ontology_Zoom.png[align="center"]
 Click on the name of the concept adds it to the query that is displayed as a term stack. The two operators Or or And are available.
 
 [[img-sunset]]
+
 // .Query Composer //
 image::images/alvisIR_home_QueryComposer.png[align="center"]
 
 Click on Refine button adds the terms to the currect query. Click on the Search button replace the current query by the new one.
 
 [[img-sunset]]
+
 // .Query Composer Results //
 image::images/alvisIR_home_QueryComposer_Result.png[align="center"]
 
