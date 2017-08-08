@@ -1,0 +1,27 @@
+= Florilège
+
+== Application goal
+
+
+
+== Application description
+= Florilège corpus
+== User profile
+== Architecture of the application
+== User manual, How-to
+=== Launching the application
+
+The application is accessible at the address http://genome.jouy.inra.fr/Florilege/ 
+
+[[img-sunset]]
+//.Homepage//
+image::images/florilege-homepage.png[]
+
+=== Query
+=== Results
+=== Query interpretation 
+=== Hits
+=== Facets
+== Further information
+=== Reference
+
