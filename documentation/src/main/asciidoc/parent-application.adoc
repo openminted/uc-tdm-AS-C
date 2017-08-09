@@ -7,11 +7,17 @@
 == Application description
 = Florilège corpus
 == User profile
+
+The user of the Florilège application is a microbiologist interested in getting exhaustive information on the habitats and phenotypes of a bacterial taxon.
+
 == Architecture of the application
+
+The relevant corpus has been fully pre-processed by AlvisNLP pipeline and indexed for query through the Florilège application available from any web browser.
+
 == User manual, How-to
 === Launching the application
 
-The application is accessible at the address http://genome.jouy.inra.fr/Florilege/ 
+The application is accessible at the address http://genome.jouy.inra.fr/Florilege/.
 
 [[img-sunset]]
 //.Homepage//
@@ -20,6 +26,22 @@ image::images/florilege-homepage.png[]
 === Query
 
 The user may search in three tabs, depending on the focus on taxa, habitats or phenotypes. 
+
+A query has to be entered in the search box
+
+
+[[img-sunset]]
+//.Search box//
+image::images/florilege-search-box.png[]
+
+Auto-completion is made with suggestion from the list of synonyms of entities indexed in the database. Once a suggestion is selected using up and down arrows followed by __enter__ or by clicking on it, the guery is executed by the search engine.
+
+
+[[img-sunset]]
+//.Autocompletion//
+image::images/florilege-auto-completion.png[]
+
+
 
 Taxa and habitats appear in relations following the pattern "__taxon__ lives_in __habitat__".
 
