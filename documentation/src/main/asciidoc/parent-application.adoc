@@ -60,7 +60,7 @@ The result page contains entries corresponding to annotations of a relation betw
 Columns include the following information:
 
 - PMIDs of the abstracts in which the annotation was predicted. The PMID or PMID list is clickable and directs to the notices in PubMed
-- surface form(s) of the queried entity, as it appears in the publication's text
+- surface form(s) of the queried entity, as it appears in the text of the abstract
 - normalized form of the entity with which the queried entity is in relation
 - surface form(s) of the entity with which the queried entity is in relation
 
@@ -76,7 +76,7 @@ The columns specific to the "Search by taxon" results page are:
 
 - surface form(s) of the taxon that was queried
 - normalized form of the habitat in which the taxon may live
-- surface form(s) of the habitat, as they appear in the publication
+- surface form(s) of the habitat, as they appear in the abstract
 
 === Search by habitat results
 
@@ -85,7 +85,7 @@ The columns specific to the "Search by habitat" results page are:
 
 - surface form(s) of the habitat that was queried
 - normalized form of the taxa that live in this habitat. This entry is clickable and directs to the NCBI taxonomy entry of the corresponding taxon
-- surface form(s) of the taxon, as they appear in the publication
+- surface form(s) of the taxon, as they appear in the abstract
 
 
 === Search by phenotype results
@@ -95,13 +95,7 @@ The columns specific to the "Search by habitat" results page are:
 - normalized form of the phenotype
 - surface form(s) of the phenotype, as it appears in the literature
 
+=== Further information
 
-
-
-
-=== Query interpretation 
-=== Hits
-=== Facets
-== Further information
-=== Reference
+This application and the semantic search engine developed for the first release will be connected in the next release. Documentation of the semantic search engine can be found <<web_app_doc.adoc#, here>>.
 
