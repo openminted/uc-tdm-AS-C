@@ -58,6 +58,7 @@ Hence, entering a query in the "Search by phenotype" tab, __e.g.__ "acetic acid 
 The result page contains entries corresponding to annotations of a relation between the searched entity and other named-entities.
 
 Columns include the following information:
+
 - PMIDs of the abstracts in which the annotation was predicted. The PMID or PMID list is clickable and directs to the notices in PubMed
 - surface form(s) of the queried entity, as it appears in the publication's text
 - normalized form of the entity with which the queried entity is in relation
