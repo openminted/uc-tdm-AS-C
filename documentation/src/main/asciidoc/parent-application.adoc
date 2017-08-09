@@ -18,7 +18,76 @@ The application is accessible at the address http://genome.jouy.inra.fr/Florileg
 image::images/florilege-homepage.png[]
 
 === Query
+
+The user may search in three tabs, depending on the focus on taxa, habitats or phenotypes. 
+
+Taxa and habitats appear in relations following the pattern "__taxon__ lives_in __habitat__".
+
+Entering a taxon, __e.g.__ "firmicutes" in the  "Search by taxon" tab corresponds to a query such as "In which habitat is __firmicutes__ found?".
+
+Similarly, entering an habitat, such as "cheese" correspond to querying "Which taxon is found in __cheese__?".
+
+Phenotypes predictions are only entities predictions.
+
+Hence, entering a query in the "Search by phenotype" tab, __e.g.__ "acetic acid resistant" correspond to querying "Which surface form does the phenotype __acetic acid resistant__ have in the literature?".
+
+
+[[img-sunset]]
+//.Search tabs//
+image::images/florilege-search-tabs.png[]
+
+For example a search by habitat, such as "cheese" gives the possibility to choose between different surface forms containing the string "cheese".
+
+[[img-sunset]]
+//.Search cheese//
+image::images/florilege-search-cheese.png[]
+
+
 === Results
+
+The result page contains entries corresponding to annotations of a relation between the searched entity and other named-entities.
+
+Columns include the following information:
+- PMIDs of the abstracts in which the annotation was predicted. The PMID or PMID list is clickable and directs to the notices in PubMed
+- surface form(s) of the queried entity, as it appears in the publication's text
+- normalized form of the entity with which the queried entity is in relation
+- surface form(s) of the entity with which the queried entity is in relation
+
+Each annotation may have been predicted several times, which results in lists in the different entries.
+
+[[img-sunset]]
+//.Results cheese//
+image::images/florilege-results-cheese.png[]
+
+=== Search by taxon results
+
+The columns specific to the "Search by taxon" results page are:
+
+- surface form(s) of the taxon that was queried
+- normalized form of the habitat in which the taxon may live
+- surface form(s) of the habitat, as they appear in the publication
+
+=== Search by habitat results
+
+
+The columns specific to the "Search by habitat" results page are:
+
+- surface form(s) of the habitat that was queried
+- normalized form of the taxa that live in this habitat. This entry is clickable and directs to the NCBI taxonomy entry of the corresponding taxon
+- surface form(s) of the taxon, as they appear in the publication
+
+
+=== Search by phenotype results
+
+The columns specific to the "Search by habitat" results page are:
+
+- normalized form of the phenotype
+- surface form(s) of the phenotype, as it appears in the literature
+
+
+
+
+
 === Query interpretation 
 === Hits
 === Facets
