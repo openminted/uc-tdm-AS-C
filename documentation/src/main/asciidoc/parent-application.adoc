@@ -53,18 +53,6 @@ Phenotypes predictions are only entities predictions.
 
 Hence, entering a query in the "Search by phenotype" tab, __e.g.__ "acetic acid resistant" correspond to querying "Which surface form does the phenotype __acetic acid resistant__ have in the literature?".
 
-
-[[img-sunset]]
-//.Search tabs//
-image::images/florilege-search-tabs.png[]
-
-For example a search by habitat, such as "cheese" gives the possibility to choose between different surface forms containing the string "cheese".
-
-[[img-sunset]]
-//.Search cheese//
-image::images/florilege-search-cheese.png[]
-
-
 === Results
 
 The result page contains entries corresponding to annotations of a relation between the searched entity and other named-entities.
