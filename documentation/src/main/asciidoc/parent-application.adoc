@@ -2,10 +2,17 @@
 
 == Application goal
 
+The Florilège TDM use case is aimed at microbiologists doing research on bacteria present in food. Microbiologists studying bacteria present in food need to get information on a specific taxon, such as the possible habitats in which they may find this taxon, as well as the phenotypes it can exhibit, in order to design experiments to study a specific taxon in detail. They may also be concerned by a specific habitat and try to get a list of taxa that have been observed in such habitat, as well as gathering the different phenotypes that a bacteria may exhibit. Better information on taxa, habitats and phenotypes enable researchers to choose the right habitat in order to study a specific taxon and specifi phenotypes. Bacterial habitats and phenotypes are mostly found in the literature but not in biological data databases, hence the Florilège application speeds up the access to this information.
+
+
+The integration of a TDM module aims at improving the data discovery, and at assisting users in their bibliography search. The TDM module will provide normalization of unstructured entities and enhanced search capabilities. Here analysis means not only the extraction of the relevant spans of text, but also the normalization or categorization with reference resources (e.g. NCBI taxonomy).
+
+
 
 
 == Application description
-= Florilège corpus
+
+
 == User profile
 
 The user of the Florilège application is a microbiologist interested in getting exhaustive information on the habitats and phenotypes of a bacterial taxon.
