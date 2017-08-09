@@ -106,7 +106,7 @@ The results of each query contain the annotations of this entity and the entitie
 
 [[img-sunset]]
 //.Hierarchical results//
-image::florilege-hierarchical.png[]
+image::images/florilege-hierarchical.png[]
 
 
 
