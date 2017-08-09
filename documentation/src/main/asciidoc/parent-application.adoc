@@ -100,6 +100,16 @@ The columns specific to the "Search by habitat" results page are:
 - normalized form of the phenotype
 - surface form(s) of the phenotype, as it appears in the literature
 
+=== Hierarchical search
+
+The results of each query contain the annotations of this entity and the entities that are children of this class in the ontology. For example, searching __firmicutes__returns all occurences of __firmicutes__ in the abstracts as well as occurences of bacteria that are children of __firmicutes__ in the taxonomy. 
+
+[[img-sunset]]
+//.Hierarchical results//
+image::florilege-hierarchical.png[]
+
+
+
 === Further information
 
 This application and the semantic search engine developed for the first release will be connected in the next release. Documentation of the semantic search engine can be found <<web_app_doc.adoc#, here>>.
