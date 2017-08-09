@@ -2,16 +2,14 @@
 
 == Application goal
 
-The Florilège TDM use case is aimed at microbiologists doing research on bacteria present in food. Microbiologists studying bacteria present in food need to get information on a specific taxon, such as the possible habitats in which they may find this taxon, as well as the phenotypes it can exhibit, in order to design experiments to study a specific taxon in detail. They may also be concerned by a specific habitat and try to get a list of taxa that have been observed in such habitat, as well as gathering the different phenotypes that a bacteria may exhibit. Better information on taxa, habitats and phenotypes enable researchers to choose the right habitat in order to study a specific taxon and specifi phenotypes. Bacterial habitats and phenotypes are mostly found in the literature but not in biological data databases, hence the Florilège application speeds up the access to this information.
-
+The Florilège TDM use case is aimed at microbiologists doing research on bacteria present in food. These researchers need to get information on a specific taxon, the habitats it can be found in and the phenotypes it can exhibit. Such information enables to design experiments to study a specific taxon in detail. They may also be concerned by a specific habitat and search for a list of taxa that can be found in this habitat. This type of data is mostly stored in scientific publications rather than stored in databases. Hence, the Florilège application may be of use in the process of experiment design, speeding up the collection of taxa to be studied in a specific habitat.
 
 The integration of a TDM module aims at improving the data discovery, and at assisting users in their bibliography search. The TDM module will provide normalization of unstructured entities and enhanced search capabilities. Here analysis means not only the extraction of the relevant spans of text, but also the normalization or categorization with reference resources (e.g. NCBI taxonomy).
 
 
-
-
 == Application description
 
+This version of the application consists of the automatic recognition and normalization of 1,6 million microorganism taxa and their 3,6 millions habitats and the automatic identification of 3,63 millions relationships between them. The corpus is composed of 1,16 million PubMed references. The taxa are normalized according to NCBI taxonomy. The habitats are normalized according to OntoBiotope Ontology. The data is indexed in the Florilège database and can be accessed using the Florilège web interface.
 
 == User profile
 
