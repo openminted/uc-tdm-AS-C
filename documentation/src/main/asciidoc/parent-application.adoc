@@ -95,7 +95,7 @@ The columns specific to the "Search by habitat" results page are:
 
 === Search by phenotype results
 
-The columns specific to the "Search by habitat" results page are:
+The columns specific to the "Search by phenotype" results page are:
 
 - normalized form of the phenotype
 - surface form(s) of the phenotype, as it appears in the literature
