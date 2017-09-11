@@ -44,7 +44,8 @@ CD\POS	START	delete
 JJ\POS of\LF	START	split	1
 JJ\POS to\LF	START	split	1
 
-JJ\POS	END	delete
+# test : remove (11/09/2017 : to handle adjectival phrases like : gram-positive)
+#JJ\POS	END	delete
 JJR\POS	END	delete
 JJS\POS	END	delete
 of\LF CD\POS	END	delete
