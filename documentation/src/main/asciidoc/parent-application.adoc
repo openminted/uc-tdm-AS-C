@@ -39,7 +39,7 @@ A query has to be entered in the search box
 //.Search box//
 image::images/florilege-search-box.png[]
 
-Auto-completion is made with suggestion from the list of synonyms of entities indexed in the database. Once a suggestion is selected using up and down arrows followed by __enter__ or by clicking on it, the guery is executed by the search engine.
+Auto-completion is made with suggestion from the list of synonyms of entities indexed in the database. Once a suggestion is selected using up and down arrows followed by __enter__ or by clicking on it, the query is executed by the search engine.
 
 
 [[img-sunset]]
