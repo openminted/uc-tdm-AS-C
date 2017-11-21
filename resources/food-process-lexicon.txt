@@ -1,0 +1,39 @@
+home-made	home - made	home - made	EC:0000431
+home-prepared	home - prepared	home - prepared	EC:0000431
+salted	salted	salted	EC:0000432
+powdered	powdered	powdered	EC:0000438
+stewed	stewed	stewed	EC:0000445
+raw	raw	raw	OBT:000499
+processed	processed	processed	OBT:000558
+spoiled	spoiled	spoiled	OBT:000578
+contaminated	contaminated	contaminated	OBT:000578
+concentrated	concentrated	concentrated	OBT:000671
+heat-preserved	heat - preserved	heat - preserved	OBT:000731
+mashed	mashed	mashed	OBT:000732
+fermented	fermented	fermented	OBT:000827
+packed	packed	packed	OBT:000835
+marinated	marinated	marinated	OBT:000863
+salt-preserved	salt - preserved	salt - preserved	OBT:000864
+sugar-preserved	sugar - preserved	sugar - preserved	OBT:000865
+smoked	smoked	smoked	OBT:000866
+frozen	frozen	frozen	OBT:000876
+dried	dried	dried	OBT:000877
+cooked	cooked	cooked	OBT:000878
+jarred	jarred	jarred	OBT:000879
+canned	canned	canned	OBT:000880
+ground	ground	ground	OBT:000892
+cooled	cooled	cooled	OBT:000895
+defrosted	defrosted	defrosted	OBT:000902
+thawed	thawed	thawed	OBT:000902
+deteriorated canned	deteriorated canned	deteriorated canned	OBT:000972
+UHT	UHT	UHT	OBT:001125
+sterilized	sterilized	sterilized	OBT:001126
+pasteurized	pasteurized	pasteurized	OBT:001127
+steamed	steamed	steamed	OBT:001128
+grilled	grilled	grilled	OBT:001129
+roasted	roasted	roasted	OBT:001130
+fermented plant-based	fermented plant - based	fermented plant - based	OBT:001136
+pickled	pickled	pickled	OBT:001270
+baked	baked	baked	OBT:001321
+modified-atmosphere-packed	modified - atmosphere - packed	modified - atmosphere - packed	OBT:001349
+vacuum-packed	vacuum - packed	vacuum - packed	OBT:001350
