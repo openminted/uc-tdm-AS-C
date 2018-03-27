@@ -1,34 +1,34 @@
-= Florilège
+= Florilege
 
 == Application goal
 
-The Florilège TDM use case is aimed at microbiologists doing research on bacteria present in food. These researchers need to get information on a specific taxon, the habitats it can be found in and the phenotypes it can exhibit. Such information enables to design experiments to study a specific taxon in detail. They may also be concerned by a specific habitat and search for a list of taxa that can be found in this habitat. This type of data is mostly stored in scientific publications rather than stored in databases. Hence, the Florilège application may be of use in the process of experiment design, speeding up the collection of taxa to be studied in a specific habitat.
+The Florilege TDM use case is aimed at microbiologists doing research on bacteria present in food. These researchers need to get information on a specific taxon, in which habitats it can be found in and the phenotypes it can exhibit. Such information enables to design experiments to study a specific taxon in detail. They may also be concerned by a specific habitat and search for a list of taxa that can be found in this habitat. This type of data is mostly stored in scientific publications rather than stored in databases. Hence, the Florilege application may be of use in the process of experiment design, speeding up the collection of taxa to be studied in a specific habitat.
 
-The integration of a TDM module aims at improving the data discovery, and at assisting users in their bibliography search. The TDM module will provide normalization of unstructured entities and enhanced search capabilities. Here analysis means not only the extraction of the relevant spans of text, but also the normalization or categorization with reference resources (e.g. NCBI taxonomy).
+The integration of a TDM module aims at improving the data discovery, and at assisting users in their literature reviews. The TDM module will provide normalization of unstructured entities and enhanced search capabilities. Here analysis means not only the extraction of the relevant spans of text, but also the normalization or categorization with reference resources (e.g. NCBI taxonomy).
 
 
 == Application description
 
-This version of the application consists of the automatic recognition and normalization of 1,6 million microorganism taxa and their 3,6 millions habitats and the automatic identification of 3,63 millions relationships between them. The corpus is composed of 1,16 million PubMed references. The taxa are normalized according to NCBI taxonomy. The habitats are normalized according to OntoBiotope Ontology. The data is indexed in the Florilège database and can be accessed using the Florilège web interface.
+This version of the application consists of the automatic recognition and normalization of 1,6 million microorganism taxa and their 3,6 millions habitats and the automatic identification of 3,63 millions relationships between them. The corpus is composed of 1,16 million PubMed references. The taxa are normalized according to NCBI taxonomy. The habitats are normalized according to the [OntoBiotope Ontology](http://agroportal.lirmm.fr/ontologies/ONTOBIOTOPE). The data is indexed in the Florilege database and can be accessed using the Florilege web interface.
 
 == User profile
 
-The user of the Florilège application is a microbiologist interested in getting exhaustive information on the habitats and phenotypes of a bacterial taxon.
+The user of the Florilege application is a microbiologist interested in getting exhaustive information on the habitats and phenotypes of a bacterial taxon.
 
 == Architecture of the application
 
-The relevant corpus has been fully pre-processed by AlvisNLP pipeline and indexed for query through the Florilège application available from any web browser.
+The relevant corpus has been fully pre-processed by AlvisNLP pipeline and indexed for query through the Florilege application available from any web browser.
 
 == User manual, How-to
 === Launching the application
 
-The application is accessible at the address http://genome.jouy.inra.fr/Florilege/.
+The application is accessible at the address [http://migale.jouy.inra.fr/Florilege/](http://migale.jouy.inra.fr/Florilege/).
 
 [[img-sunset]]
-//.Homepage//
 image::images/florilege-homepage.png[]
 
 === Query
+//.Homepage//
 
 The user may search in three tabs, depending on the focus on taxa, habitats or phenotypes. 
 
