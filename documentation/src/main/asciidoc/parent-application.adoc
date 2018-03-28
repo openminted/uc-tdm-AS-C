@@ -9,7 +9,13 @@ The integration of a TDM module aims at improving the data discovery, and at ass
 
 == Application description
 
-This version of the application consists of the automatic recognition and normalization of 1,6 million microorganism taxa and their 3,6 millions habitats and the automatic identification of 3,63 millions relationships between them. The corpus is composed of 1,16 million PubMed references. The taxa are normalized according to NCBI taxonomy. The habitats are normalized according to the [OntoBiotope Ontology](http://agroportal.lirmm.fr/ontologies/ONTOBIOTOPE). The data is indexed in the Florilege database and can be accessed using the Florilege web interface.
+Data from several sources have been text mined and are indexed and exposed through the Florilege search engine.
+
+This version of the text mining results of scientific publications consists of the automatic recognition and normalization of 1,6 million microorganism taxa and their 3,6 millions habitats and the automatic identification of 3,63 millions relationships between them. The corpus is composed of 1,16 million PubMed references. The taxa are normalized according to NCBI taxonomy. The habitats are normalized according to the http://agroportal.lirmm.fr/ontologies/ONTOBIOTOPE[OntoBiotope Ontology].
+
+Fields of the DSMZ, GenBank and CIRM databases of entries about microbes have been text-mined and result in 100K relations.
+
+// [TODO:] describe corpus & results. cf https://migale.jouy.inra.fr/redmine/projects/uc-as-c-food-microbio/wiki/Data
 
 == User profile
 
@@ -22,7 +28,7 @@ The relevant corpus has been fully pre-processed by AlvisNLP pipeline and indexe
 == User manual, How-to
 === Launching the application
 
-The application is accessible at the address [http://migale.jouy.inra.fr/Florilege/](http://migale.jouy.inra.fr/Florilege/).
+The application is accessible at the address http://migale.jouy.inra.fr/Florilege/[http://migale.jouy.inra.fr/Florilege/].
 
 [[img-sunset]]
 image::images/florilege-homepage.png[]
@@ -48,36 +54,107 @@ image::images/florilege-auto-completion.png[]
 
 
 
-Taxa and habitats appear in relations following the pattern "__taxon__ lives_in __habitat__".
+Taxa and habitats appear in relations following the pattern "__Taxon__ lives_in __Habitat__".
 
-Entering a taxon, __e.g.__ "firmicutes" in the  "Search by taxon" tab corresponds to a query such as "In which habitat is __firmicutes__ found?".
+Entering a taxon, __e.g.__ "Lactobacillus" in the  "Search by taxon" tab corresponds to a query such as "In which habitat is __Lactobacillus_ found?".
 
-Similarly, entering an habitat, such as "cheese" correspond to querying "Which taxon is found in __cheese__?".
+Similarly, entering an habitat in the "Taxon lives in Habitat" tab, such as "cheese" correspond to querying "Which taxon is found in __cheese__?".
 
-Phenotypes predictions are only entities predictions.
-
-Hence, entering a query in the "Search by phenotype" tab, __e.g.__ "acetic acid resistant" correspond to querying "Which surface form does the phenotype __acetic acid resistant__ have in the literature?".
+//Identically, entering a Taxon in the search box of the "Taxon exibits Phenotype" tab correspond to querying "Which phenotypes does the taxon exhibit" and searching using in the "Phenotype is exhibited by Taxon" tab 
 
 === Results
 
 The result page contains entries corresponding to annotations of a relation between the searched entity and other named-entities.
 
-Columns include the following information:
-
-- PMIDs of the abstracts in which the annotation was predicted. The PMID or PMID list is clickable and directs to the notices in PubMed
-- surface form(s) of the queried entity, as it appears in the text of the abstract
-- normalized form of the entity with which the queried entity is in relation
-- surface form(s) of the entity with which the queried entity is in relation
-
-Each annotation may have been predicted several times, which results in lists in the different entries.
-
 [[img-sunset]]
 //.Results cheese//
-image::images/florilege-results-cheese.png[]
+image::images/florilege-results-lactobacillus.png[]
+
+
+Columns include the following information:
+
+- identifier of the source text in which the annotation was predicted. The identifier is the identifiers used in the source database (PMID for Pubmed documents, DSMZID for DSMZ data, GenBankID for GenBank data). The identifier or list of identifiers are clickable and directs to the notices in the source database
+
+// and CIRM id for CIRM data
+
+[[img-sunset]]
+//.PMID clickable//
+image::images/florilege-pmid-clickable.png[]
+
+[[img-sunset]]
+//.DSMZID clickable//
+image::images/florilege-dsmzid-clickable.png[]
+
+[[img-sunset]]
+//.GenBankID clickable//
+image::images/florilege-genbankid-clickable.png[]
+
+
+//[[img-sunset]]
+//.CIRMID clickable//
+//image::images/florilege-cirmid-clickable.png[]
+
+
+
+
+
+- canonical form of the entity with which the queried entity is in relation
+
+[[img-sunset]]
+//.Canonical form//
+image::images/florilege-normalized-form.png[]
+
+Clicking on the canonical form of an entity displays a popup with the list of surface forms that the entity takes in the source documents. Each annotation may have been predicted several times, which results in lists in the different entries. The list is clickable and points to the NCBI taxonomy entry of the taxon.
+
+[[img-sunset]]
+//.Surface form/
+image::images/florilege-surface-form.png[]
+
+//points to Ontobiotope Habitat
+
+Three filters are available and can be combined or used separately. The filters are displayed when the "Filter Selection" button.
+
+[[img-sunset]]
+//.Filtering//
+image::images/florilege-filtering.png[]
+
+The three filtering parameters are:
+
+- source filtering. Sources can be combined using Ctrl+click
+
+[[img-sunset]]
+//.Filter source//
+image::images/florilege-filter-source.png[]
+
+- Second entity filtering. 
+
+[[img-sunset]]
+//.Second entity filtering//
+image::images/florilege-filter-second-entity.png[]
+
+
+- QPS filtering
+
+[[img-sunset]]
+//.Filter QPS//
+image::images/florilege-filter-qps.png[]
+
+
+
+The "TSV Download" enables to download of the results in TSV.
+
+[[img-sunset]]
+//.Download button//
+image::images/florilege-download-button.png[]
+
+[[img-sunset]]
+//.Download results//
+image::images/florilege-download-results.png[]
+
 
 === Search by taxon results
 
-The columns specific to the "Search by taxon" results page are:
+The columns specific to the "Taxon " results page are:
 
 - surface form(s) of the taxon that was queried
 - normalized form of the habitat in which the taxon may live
@@ -102,15 +179,44 @@ The columns specific to the "Search by phenotype" results page are:
 
 === Hierarchical search
 
-The results of each query contain the annotations of this entity and the entities that are children of this class in the ontology. For example, searching __firmicutes__returns all occurences of __firmicutes__ in the abstracts as well as occurences of bacteria that are children of __firmicutes__ in the taxonomy. 
+The results of each query contain the annotations of this entity and the entities that are children of this class in the ontology. For example, searching __firmicutes__returns all occurences of __firmicutes__ in the abstracts as well as occurences of bacteria that are children of __firmicutes__ in the NCBI taxonomy.
 
-[[img-sunset]]
+//[[img-sunset]]
 //.Hierarchical results//
-image::images/florilege-hierarchical.png[]
+//image::images/florilege-hierarchical.png[]
+
+
+
+
+=== Synonyms handling
+
+Querying can be done using controlled terms of the ontologies as well as surface forms of the terms as used in the original journal articles and databases.
+
+The normalization of terms done in the processing of the data makes that results correspond to a request using the canonical term.
+
+
+=== URL
+
+The parameters contained in the URLs make it possible to bookmark a result and access it again later.
+
+For example, requesting "Lactobacillus" in the "Taxon lives in Habitat" tab gives the following URL:
+
+http://migale.jouy.inra.fr/Florilege/#&searchByTaxon=Lactobacillus
+
+TSV exports can also be bookmarked, as they result in a URL in the form of:
+
+http://migale.jouy.inra.fr/FlorilegePreProd/florilege/downloadService?&exportType=habitatbytaxon&exportName=Lactobacillus  
+
+//http://migale.jouy.inra.fr/Florilege/florilege/downloadService?&exportType=habitatbytaxon&exportName=Lactobacillus
+
+Note that you need a browser with javascript enabled, so direct downloading from the command line is not possible.
+
+
+
 
 
 
 === Further information
 
-This application and the semantic search engine developed for the first release will be connected in the next release. Documentation of the semantic search engine can be found <<web_app_doc.adoc#, here>>.
+This application and the semantic search engine developed for the first release may be used in association. Documentation of the semantic search engine can be found <<web_app_doc.adoc#, here>>.
 
