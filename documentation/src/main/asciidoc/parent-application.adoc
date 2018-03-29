@@ -83,13 +83,13 @@ Columns include the following information:
 //.PMID clickable//
 image::images/florilege-pmid-clickable.png[]
 
-[[img-sunset]]
+//[[img-sunset]]
 //.DSMZID clickable//
-image::images/florilege-dsmzid-clickable.png[]
+//image::images/florilege-dsmzid-clickable.png[]
 
-[[img-sunset]]
+//[[img-sunset]]
 //.GenBankID clickable//
-image::images/florilege-genbank-clickable.pngg[]
+//image::images/florilege-genbank-clickable.pngg[]
 
 
 //[[img-sunset]]
