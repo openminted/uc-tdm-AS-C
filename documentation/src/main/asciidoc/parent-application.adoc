@@ -87,7 +87,7 @@ image::images/florilege-dsmzid-clickable.png[]
 
 [[img-sunset]]
 //.GenBankID clickable//
-image::images/florilege-genbankid-clickable.png[]
+image::images/florilege-genbank-clickable.pngg[]
 
 
 //[[img-sunset]]
@@ -182,7 +182,7 @@ http://migale.jouy.inra.fr/Florilege/#&searchByTaxon=Lactobacillus
 
 TSV exports can also be bookmarked, as they result in a URL in the form of:
 
-http://migale.jouy.inra.fr/FlorilegePreProd/florilege/downloadService?&exportType=habitatbytaxon&exportName=Lactobacillus  
+http://migale.jouy.inra.fr/Florilege/florilege/downloadService?&exportType=habitatbytaxon&exportName=Lactobacillus  
 
 //http://migale.jouy.inra.fr/Florilege/florilege/downloadService?&exportType=habitatbytaxon&exportName=Lactobacillus
 
