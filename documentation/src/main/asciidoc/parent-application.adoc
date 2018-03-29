@@ -36,7 +36,9 @@ image::images/florilege-homepage.png[]
 === Query
 //.Homepage//
 
-The user may search in three tabs, depending on the focus on taxa, habitats or phenotypes. 
+The user may search in two tabs, depending on the focus on taxa and habitats.
+
+// four tabs     or phenotypes
 
 A query has to be entered in the search box
 
