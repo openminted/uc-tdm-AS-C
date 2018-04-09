@@ -1,3 +1,17 @@
 = Application Design
 
-This data processing scenario is yet to be addressed in the current AS-C application.
+== Model alignement
+
+The model of Florilège data is under development and has been adapted to the one of the text mining data resulting in an absence of loss in the data.
+
+== Data production
+
+Until now the execution of the text mining workflow is done on the Migale platform at INRA.
+
+The workflow is detailled in the <<production_processing.adoc#, production processing documentation>>
+
+== Data Updates
+
+The resulting text mining data is made available to the parent application maintainers as a downloadable file.
+
+They can be downloaded at http://genome.jouy.inra.fr/~jbbohuon/uc-c-microbial-biodiversity/relations_zipped.txt
